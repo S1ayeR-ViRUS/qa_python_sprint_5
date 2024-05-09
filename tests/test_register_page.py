@@ -1,7 +1,8 @@
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 import config
-from data import AuthTestData, UserTestDataGenerator
+from data import AuthTestData
+from helpers import UserTestDataGenerator
 from locators import LocatorsAccountPage, LocatorsLoginPage, LocatorsMainPage, LocatorsRegisterPage
 
 
